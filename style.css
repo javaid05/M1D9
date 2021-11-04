@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(54, 54, 54);
+  color: honeydew;
+}
+
+.bingo-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  border: 2px solid rgb(47, 0, 255);
+  max-width: 75%;
+  margin: 0 auto;
+}
+.bingoNumber,
+.userNumber {
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  font-size: x-large;
+  font-weight: bold;
+}
